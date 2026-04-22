@@ -1,10 +1,10 @@
 ﻿namespace Hotel.Models
 {
-    public class Status
+    public class Type
     {
         public int Id { get; set; }
         public string Name { get; set; }
 
-     
+        
     }
 }
