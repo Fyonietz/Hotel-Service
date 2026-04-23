@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSingleton<Database>();
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<RoomService>();
 var app = builder.Build();
 
 
@@ -15,5 +16,6 @@ var app = builder.Build();
 
 app.MapAuthController();
 app.MapUserController();
+app.MapRoomController();
 app.Run();
 

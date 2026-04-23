@@ -5,7 +5,7 @@ namespace Hotel.Services
 {
     public class Database
     {
-        private string _connectionstring = "Data Source=Data.db";
+        private string _connectionstring = "Data Source=App.db";
         public SqliteConnection GetConnection()
         {
             var connection = new SqliteConnection(_connectionstring);
