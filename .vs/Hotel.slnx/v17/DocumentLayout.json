@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|c:\\users\\lenovo\\source\\repos\\hotel-service\\hotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|solutionrelative:hotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|c:\\users\\lenovo\\source\\repos\\hotel-service\\hotel\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|solutionrelative:hotel\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|c:\\users\\lenovo\\source\\repos\\hotel-service\\hotel\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|solutionrelative:hotel\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|solutionrelative:hotel\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|c:\\users\\lenovo\\source\\repos\\hotel-service\\hotel\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|solutionrelative:hotel\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|c:\\users\\lenovo\\source\\repos\\hotel-service\\hotel\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|solutionrelative:hotel\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|c:\\users\\lenovo\\source\\repos\\hotel-service\\hotel\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|solutionrelative:hotel\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|c:\\users\\lenovo\\source\\repos\\hotel-service\\hotel\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|solutionrelative:hotel\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|c:\\users\\lenovo\\source\\repos\\hotel-service\\hotel\\services\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|solutionrelative:hotel\\services\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -61,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|c:\\users\\lenovo\\source\\repos\\hotel-service\\hotel\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|solutionrelative:hotel\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|c:\\users\\lenovo\\source\\repos\\hotel-service\\hotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|solutionrelative:hotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E421E085-9B77-8F94-DB07-FC9BE36F5B99}|Hotel\\Hotel.csproj|c:\\users\\lenovo\\source\\repos\\hotel-service\\hotel\\scripts\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
@@ -86,37 +86,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 191,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BookingController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "Hotel\\Controllers\\BookingController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Controllers\\BookingController.cs",
               "RelativeToolTip": "Hotel\\Controllers\\BookingController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwDoAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwEAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T05:58:40.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BookingService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Services\\BookingService.cs",
               "RelativeDocumentMoniker": "Hotel\\Services\\BookingService.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Services\\BookingService.cs",
               "RelativeToolTip": "Hotel\\Services\\BookingService.cs",
-              "ViewState": "AgIAANcAAAAAAAAAAIA2wNcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAANUAAAAAAAAAAAAswN8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T05:58:37.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Hotel\\Controllers\\UserController.cs",
@@ -128,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Hotel\\Controllers\\AuthController.cs",
@@ -136,12 +136,11 @@
               "RelativeToolTip": "Hotel\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T03:57:51.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T03:57:51.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "RoomController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Controllers\\RoomController.cs",
               "RelativeDocumentMoniker": "Hotel\\Controllers\\RoomController.cs",
@@ -149,12 +148,11 @@
               "RelativeToolTip": "Hotel\\Controllers\\RoomController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T03:57:48.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T03:57:48.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Models\\Role.cs",
               "RelativeDocumentMoniker": "Hotel\\Models\\Role.cs",
@@ -162,12 +160,11 @@
               "RelativeToolTip": "Hotel\\Models\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T03:33:24.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T03:33:24.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Hotel\\Services\\AuthService.cs",
@@ -179,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Hotel\\Services\\UserService.cs",
@@ -192,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RoomService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Services\\RoomService.cs",
               "RelativeDocumentMoniker": "Hotel\\Services\\RoomService.cs",
@@ -205,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Models\\Room.cs",
               "RelativeDocumentMoniker": "Hotel\\Models\\Room.cs",
@@ -213,24 +210,24 @@
               "RelativeToolTip": "Hotel\\Models\\Room.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T03:32:52.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T03:32:52.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Program.cs",
               "RelativeDocumentMoniker": "Hotel\\Program.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Program.cs",
               "RelativeToolTip": "Hotel\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T07:10:52.262Z"
+              "WhenOpened": "2026-04-21T07:10:52.262Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Status.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Models\\Status.cs",
               "RelativeDocumentMoniker": "Hotel\\Models\\Status.cs",
@@ -238,12 +235,11 @@
               "RelativeToolTip": "Hotel\\Models\\Status.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T03:32:33.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T03:32:33.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "Hotel\\Models\\Booking.cs",
@@ -251,12 +247,11 @@
               "RelativeToolTip": "Hotel\\Models\\Booking.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T03:33:05.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T03:33:05.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Database.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Services\\Database.cs",
               "RelativeDocumentMoniker": "Hotel\\Services\\Database.cs",
@@ -279,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Models\\User.cs",
               "RelativeDocumentMoniker": "Hotel\\Models\\User.cs",
@@ -287,12 +282,11 @@
               "RelativeToolTip": "Hotel\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T03:33:48.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T03:33:48.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Type.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Hotel-Service\\Hotel\\Models\\Type.cs",
               "RelativeDocumentMoniker": "Hotel\\Models\\Type.cs",
@@ -300,8 +294,7 @@
               "RelativeToolTip": "Hotel\\Models\\Type.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T03:32:09.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T03:32:09.586Z"
             },
             {
               "$type": "Document",

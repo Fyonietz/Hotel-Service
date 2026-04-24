@@ -213,59 +213,21 @@ namespace Hotel.Services
             return count == 0;
         }
 
-        public async Task<bool> Update(int id, Booking booking)
+        public async Task<bool> Update(int id, int StatusId)
         {
             using var conn = _db.GetConnection();
             await conn.OpenAsync();
 
-            int days = booking.EndDate.DayNumber - booking.BookingDate.DayNumber;
+            using var cmd = conn.CreateCommand();
+            cmd.CommandText = @"
+        UPDATE Booking
+        SET StatusId = @StatusId
+        WHERE Id = @Id";
 
-            if (days <= 0)
-                throw new Exception("EndDate harus lebih besar dari BookingDate");
+            cmd.Parameters.AddWithValue("@Id", id);
+            cmd.Parameters.AddWithValue("@StatusId", StatusId);
 
-            // Guard: Cek ketersediaan kamar (exclude booking saat ini)
-            if (!await IsRoomAvailable(conn, booking.RoomId, booking.BookingDate, booking.EndDate, id))
-                throw new Exception("Kamar sudah dipesan untuk tanggal tersebut");
-
-            decimal pricePerNight;
-
-            using (var cmd = conn.CreateCommand())
-            {
-                cmd.CommandText = "SELECT PricePerNight FROM Room WHERE Id = @RoomId";
-                cmd.Parameters.AddWithValue("@RoomId", booking.RoomId);
-
-                using var reader = await cmd.ExecuteReaderAsync();
-
-                if (!await reader.ReadAsync())
-                    throw new Exception("Room tidak ditemukan");
-
-                pricePerNight = reader.GetDecimal(0);
-            }
-
-            booking.Price = days * pricePerNight;
-
-            using var updateCmd = conn.CreateCommand();
-            updateCmd.CommandText = @"
-            UPDATE Booking
-            SET UserId = @UserId,
-                RoomId = @RoomId,
-                StatusId = @StatusId,
-                BookingDate = @BookingDate,
-                EndDate = @EndDate,
-                Price = @Price,
-                Notes = @Notes
-            WHERE Id = @Id";
-
-            updateCmd.Parameters.AddWithValue("@Id", id);
-            updateCmd.Parameters.AddWithValue("@UserId", booking.UserId);
-            updateCmd.Parameters.AddWithValue("@RoomId", booking.RoomId);
-            updateCmd.Parameters.AddWithValue("@StatusId", 1);
-            updateCmd.Parameters.AddWithValue("@BookingDate", booking.BookingDate.ToString("yyyy-MM-dd"));
-            updateCmd.Parameters.AddWithValue("@EndDate", booking.EndDate.ToString("yyyy-MM-dd"));
-            updateCmd.Parameters.AddWithValue("@Price", booking.Price);
-            updateCmd.Parameters.AddWithValue("@Notes", (object?)booking.Notes ?? DBNull.Value);
-
-            return await updateCmd.ExecuteNonQueryAsync() > 0;
+            return await cmd.ExecuteNonQueryAsync() > 0;
         }
 
         public async Task<bool> Delete(int id)
