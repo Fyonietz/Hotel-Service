@@ -12,6 +12,7 @@ builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<RoomService>();
 builder.Services.AddScoped<BookingService>();
+builder.Services.AddScoped<TypeService>();
 var app = builder.Build();
 
 app.UseSwagger();
@@ -27,5 +28,6 @@ app.MapAuthController();
 app.MapUserController();
 app.MapRoomController();
 app.MapBookingController();
+app.MapTypeController();
 app.Run();
 
