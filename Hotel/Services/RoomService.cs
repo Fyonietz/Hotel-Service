@@ -1,5 +1,7 @@
 ﻿using Hotel.Models;
 using Dapper;
+using System.Data;
+
 namespace Hotel.Services
 {
     public class RoomService
@@ -11,14 +13,15 @@ namespace Hotel.Services
         public async Task<IEnumerable<Room>> GetAll()
         {
             using var conn = _db.GetConnection();
-            string sql = "SELECT * FROM Room";
+            // Explicitly cast PricePerNight to REAL for proper numeric conversion
+            string sql = "SELECT Id, TypeId, Name, CAST(PricePerNight AS REAL) AS PricePerNight FROM Room";
             return await conn.QueryAsync<Room>(sql);
         }
 
         public async Task<Room?> GetById(int id)
         {
             using var conn = _db.GetConnection();
-            string sql = "SELECT * FROM Room WHERE Id = @Id";
+            string sql = "SELECT Id, TypeId, Name, CAST(PricePerNight AS REAL) AS PricePerNight FROM Room WHERE Id = @Id";
             return await conn.QueryFirstOrDefaultAsync<Room>(sql, new { Id = id });
         }
 
